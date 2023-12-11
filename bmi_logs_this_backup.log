@@ -1,0 +1,147 @@
+[STEP] [2023-12-11 03:12:57] Looking for PHP CLI executable file.
+[WARN] [2023-12-11 03:12:57] Could not find proper PHP CLI executable, this process may be unstable.
+[WARN] [2023-12-11 03:12:57] PHP CLI file cannot be executed due to unknown reason.
+[STEP] [2023-12-11 03:12:57] Initializing backup...
+[INFO] [2023-12-11 03:12:57] Backup & Migration version: 1.3.8
+[INFO] [2023-12-11 03:12:57] Site which will be backed up: http://starrylocal.local
+[INFO] [2023-12-11 03:12:57] PHP Version: 8.1.23
+[INFO] [2023-12-11 03:12:57] WP Version: 6.4.1
+[INFO] [2023-12-11 03:12:57] MySQL Version: 8.0.16
+[INFO] [2023-12-11 03:12:57] MySQL Max Length: 16777216
+[INFO] [2023-12-11 03:12:57] Web server: nginx/1.16.0
+[INFO] [2023-12-11 03:12:57] Max execution time (in seconds): 1200
+[INFO] [2023-12-11 03:12:57] Memory limit (server): 256M
+[INFO] [2023-12-11 03:12:57] Memory limit (wp-config): 40M
+[INFO] [2023-12-11 03:12:57] Memory limit (wp-config admin): 256M
+[INFO] [2023-12-11 03:12:57] Max rows per query (this site): 2000
+[INFO] [2023-12-11 03:12:57] Checking if backup dir is writable...
+[INFO] [2023-12-11 03:12:57] Initializing custom error handler
+[SUCCESS] [2023-12-11 03:12:57] Yup it is writable...
+[STEP] [2023-12-11 03:12:57] Scanning files...
+[WARN] [2023-12-11 03:12:58] Removing file from backup (due to path rules): C:\Users\PC\Local Sites\starrylocal\app\public\wp-content\backup-migration-config.php
+[INFO] [2023-12-11 03:12:58] Total size of excluded files: 2031 bytes
+[VERBOSE] [2023-12-11 03:12:58] Total size of excluded files (bytes): 2031
+[STEP] [2023-12-11 03:12:58] Checking free space, reserving...
+[INFO] [2023-12-11 03:12:58] Requires at least 267573006 bytes. [255.18 MB]
+[INFO] [2023-12-11 03:12:58] Disk free space function is not disabled - using it...
+[INFO] [2023-12-11 03:12:58] Checking this path/partition: C:\Users\PC\Local Sites\starrylocal\app\public\wp-content\backup-migration\backups
+[SUCCESS] [2023-12-11 03:12:58] There is 84,263.71 MB free. [82.29 GB]
+[SUCCESS] [2023-12-11 03:12:58] Great! We have enough space.
+[SUCCESS] [2023-12-11 03:12:58] Confirmed, there is more than enough space, checked: 267573006 bytes
+[INFO] [2023-12-11 03:12:58] Scanning done - found 7149 files...
+[SUCCESS] [2023-12-11 03:12:58] Backup initialized...
+[STEP] [2023-12-11 03:12:58] Initializing archiving system...
+[SUCCESS] [2023-12-11 03:12:58] Archive system initialized...
+[STEP] [2023-12-11 03:12:58] Preparing map of files...
+[SUCCESS] [2023-12-11 03:12:58] Files prepared.
+[INFO] [2023-12-11 03:12:58] Starting compression process...
+[STEP] [2023-12-11 03:12:58] Smart memory calculation...
+[INFO] [2023-12-11 03:12:58] There is 384 MBs of memory to use
+[INFO] [2023-12-11 03:12:58] WordPress memory limit: 256 MBs
+[SUCCESS] [2023-12-11 03:12:58] Setting the safe limit to 86 MB
+[INFO] [2023-12-11 03:12:58] Using PclZip module to create the backup
+[INFO] [2023-12-11 03:12:58] Legacy setting: Using default modules depending on user server
+[STEP] [2023-12-11 03:12:58] Making database backup (using v3 engine, requires at least v1.2.2 to restore)
+[INFO] [2023-12-11 03:12:58] Iterating database...
+[INFO] [2023-12-11 03:12:58] Memory usage after initialization: 9.83 MB
+[VERBOSE] [2023-12-11 03:12:58] Exporting database via zip.php
+[INFO] [2023-12-11 03:12:58] Excluding bmstg0617_actionscheduler_actions table from backup (as it is part of staging site).
+[INFO] [2023-12-11 03:12:58] Excluding bmstg0617_actionscheduler_claims table from backup (as it is part of staging site).
+[INFO] [2023-12-11 03:12:58] Excluding bmstg0617_actionscheduler_groups table from backup (as it is part of staging site).
+[INFO] [2023-12-11 03:12:58] Excluding bmstg0617_actionscheduler_logs table from backup (as it is part of staging site).
+[INFO] [2023-12-11 03:12:58] Excluding bmstg0617_commentmeta table from backup (as it is part of staging site).
+[INFO] [2023-12-11 03:12:58] Excluding bmstg0617_comments table from backup (as it is part of staging site).
+[INFO] [2023-12-11 03:12:58] Excluding bmstg0617_e_events table from backup (as it is part of staging site).
+[INFO] [2023-12-11 03:12:58] Excluding bmstg0617_links table from backup (as it is part of staging site).
+[INFO] [2023-12-11 03:12:58] Excluding bmstg0617_options table from backup (as it is part of staging site).
+[INFO] [2023-12-11 03:12:58] Excluding bmstg0617_postmeta table from backup (as it is part of staging site).
+[INFO] [2023-12-11 03:12:58] Excluding bmstg0617_posts table from backup (as it is part of staging site).
+[INFO] [2023-12-11 03:12:58] Excluding bmstg0617_term_relationships table from backup (as it is part of staging site).
+[INFO] [2023-12-11 03:12:58] Excluding bmstg0617_term_taxonomy table from backup (as it is part of staging site).
+[INFO] [2023-12-11 03:12:58] Excluding bmstg0617_termmeta table from backup (as it is part of staging site).
+[INFO] [2023-12-11 03:12:58] Excluding bmstg0617_terms table from backup (as it is part of staging site).
+[INFO] [2023-12-11 03:12:58] Excluding bmstg0617_usermeta table from backup (as it is part of staging site).
+[INFO] [2023-12-11 03:12:58] Excluding bmstg0617_users table from backup (as it is part of staging site).
+[INFO] [2023-12-11 03:12:58] Excluding bmstg0617_wpforms_payment_meta table from backup (as it is part of staging site).
+[INFO] [2023-12-11 03:12:58] Excluding bmstg0617_wpforms_payments table from backup (as it is part of staging site).
+[INFO] [2023-12-11 03:12:58] Excluding bmstg0617_wpforms_tasks_meta table from backup (as it is part of staging site).
+[INFO] [2023-12-11 03:12:58] Scan found 20 tables (1325 rows), estimated total size: 10.91 MB.
+[INFO] [2023-12-11 03:12:58] Memory usage after getting table names: 9.84 MB 
+[INFO] [2023-12-11 03:12:58] Getting table recipes...
+[INFO] [2023-12-11 03:12:58] Table recipes have been exported.
+[INFO] [2023-12-11 03:12:58] Memory usage after loading recipes: 9.86 MB 
+[INFO] [2023-12-11 03:12:58] Saving recipes...
+[INFO] [2023-12-11 03:12:58] Recipes saved.
+[INFO] [2023-12-11 03:12:58] Memory usage after recipe off-load: 9.85 MB
+[INFO] [2023-12-11 03:12:58] Exporting table data...
+[STEP] [2023-12-11 03:12:58] Getting data of table: wp_actionscheduler_actions (1/20, 0.13 MB)
+[SUCCESS] [2023-12-11 03:12:58] Table export for: wp_actionscheduler_actions finished (0.00303s)
+[STEP] [2023-12-11 03:12:58] Getting data of table: wp_actionscheduler_claims (2/20, 0.03 MB)
+[INFO] [2023-12-11 03:12:58] Table wp_actionscheduler_claims is empty, saving only recipe.
+[STEP] [2023-12-11 03:12:58] Getting data of table: wp_actionscheduler_groups (3/20, 0.03 MB)
+[SUCCESS] [2023-12-11 03:12:58] Table export for: wp_actionscheduler_groups finished (0.00207s)
+[STEP] [2023-12-11 03:12:58] Getting data of table: wp_actionscheduler_logs (4/20, 0.05 MB)
+[SUCCESS] [2023-12-11 03:12:58] Table export for: wp_actionscheduler_logs finished (0.00241s)
+[STEP] [2023-12-11 03:12:58] Getting data of table: wp_commentmeta (5/20, 0.05 MB)
+[INFO] [2023-12-11 03:12:58] Table wp_commentmeta is empty, saving only recipe.
+[STEP] [2023-12-11 03:12:58] Getting data of table: wp_comments (6/20, 0.09 MB)
+[SUCCESS] [2023-12-11 03:12:58] Table export for: wp_comments finished (0.00201s)
+[STEP] [2023-12-11 03:12:58] Getting data of table: wp_e_events (7/20, 0.02 MB)
+[INFO] [2023-12-11 03:12:58] Table wp_e_events is empty, saving only recipe.
+[STEP] [2023-12-11 03:12:58] Getting data of table: wp_links (8/20, 0.03 MB)
+[INFO] [2023-12-11 03:12:58] Table wp_links is empty, saving only recipe.
+[STEP] [2023-12-11 03:12:58] Getting data of table: wp_options (9/20, 8.09 MB)
+[SUCCESS] [2023-12-11 03:12:58] Table export for: wp_options finished (0.27961s)
+[STEP] [2023-12-11 03:12:58] Getting data of table: wp_postmeta (10/20, 1.38 MB)
+[SUCCESS] [2023-12-11 03:12:58] Table export for: wp_postmeta finished (0.03717s)
+[STEP] [2023-12-11 03:12:58] Getting data of table: wp_posts (11/20, 0.48 MB)
+[SUCCESS] [2023-12-11 03:12:58] Table export for: wp_posts finished (0.02356s)
+[STEP] [2023-12-11 03:12:58] Getting data of table: wp_term_relationships (12/20, 0.03 MB)
+[SUCCESS] [2023-12-11 03:12:58] Table export for: wp_term_relationships finished (0.00152s)
+[STEP] [2023-12-11 03:12:58] Getting data of table: wp_term_taxonomy (13/20, 0.05 MB)
+[SUCCESS] [2023-12-11 03:12:58] Table export for: wp_term_taxonomy finished (0.00162s)
+[STEP] [2023-12-11 03:12:58] Getting data of table: wp_termmeta (14/20, 0.05 MB)
+[SUCCESS] [2023-12-11 03:12:58] Table export for: wp_termmeta finished (0.00283s)
+[STEP] [2023-12-11 03:12:58] Getting data of table: wp_terms (15/20, 0.05 MB)
+[SUCCESS] [2023-12-11 03:12:58] Table export for: wp_terms finished (0.00206s)
+[STEP] [2023-12-11 03:12:58] Getting data of table: wp_usermeta (16/20, 0.05 MB)
+[SUCCESS] [2023-12-11 03:12:58] Table export for: wp_usermeta finished (0.00359s)
+[STEP] [2023-12-11 03:12:58] Getting data of table: wp_users (17/20, 0.06 MB)
+[SUCCESS] [2023-12-11 03:12:58] Table export for: wp_users finished (0.00150s)
+[STEP] [2023-12-11 03:12:58] Getting data of table: wp_wpforms_payment_meta (18/20, 0.06 MB)
+[INFO] [2023-12-11 03:12:58] Table wp_wpforms_payment_meta is empty, saving only recipe.
+[STEP] [2023-12-11 03:12:58] Getting data of table: wp_wpforms_payments (19/20, 0.16 MB)
+[INFO] [2023-12-11 03:12:58] Table wp_wpforms_payments is empty, saving only recipe.
+[STEP] [2023-12-11 03:12:58] Getting data of table: wp_wpforms_tasks_meta (20/20, 0.02 MB)
+[INFO] [2023-12-11 03:12:58] Table wp_wpforms_tasks_meta is empty, saving only recipe.
+[INFO] [2023-12-11 03:12:58] Table data exported.
+[INFO] [2023-12-11 03:12:58] Memory usage after data export: 9.83 MB
+[INFO] [2023-12-11 03:12:58] Entire process took: 0.4518 s
+[SUCCESS] [2023-12-11 03:12:58] Database backup finished
+[STEP] [2023-12-11 03:12:58] Making archive
+[INFO] [2023-12-11 03:12:58] Compressing...
+[WARN] [2023-12-11 03:12:58] Backup will run as single-request, may be unstable...
+[STEP] [2023-12-11 03:12:58] Adding database SQL file(s) to the backup file.
+[VERBOSE] [2023-12-11 03:12:58] Database files in total found: 20
+[SUCCESS] [2023-12-11 03:12:59] Database added to the backup successfully.
+[STEP] [2023-12-11 03:12:59] Performing site files backup...
+[INFO] [2023-12-11 03:12:59] Chunks contain 500 files.
+[INFO] [2023-12-11 03:13:09] Milestone: 500/7149
+[INFO] [2023-12-11 03:13:21] Milestone: 1000/7149
+[INFO] [2023-12-11 03:13:28] Milestone: 1500/7149
+[INFO] [2023-12-11 03:13:38] Milestone: 2000/7149
+[INFO] [2023-12-11 03:13:47] Milestone: 2500/7149
+[INFO] [2023-12-11 03:13:56] Milestone: 3000/7149
+[INFO] [2023-12-11 03:14:06] Milestone: 3500/7149
+[INFO] [2023-12-11 03:14:16] Milestone: 4000/7149
+[INFO] [2023-12-11 03:14:25] Milestone: 4500/7149
+[INFO] [2023-12-11 03:14:37] Milestone: 5000/7149
+[INFO] [2023-12-11 03:14:48] Milestone: 5500/7149
+[INFO] [2023-12-11 03:14:57] Milestone: 6000/7149
+[INFO] [2023-12-11 03:15:09] Milestone: 6500/7149
+[INFO] [2023-12-11 03:15:23] Milestone: 7000/7149
+[INFO] [2023-12-11 03:15:25] Milestone: 7149/7149
+[SUCCESS] [2023-12-11 03:15:25] Compressed 7149 files
+[INFO] [2023-12-11 03:15:25] Archiving of 7149 files took: 147.63s
+[STEP] [2023-12-11 03:15:25] Finalizing backup
+[INFO] [2023-12-11 03:15:25] Generating manifest file and saving current live-log...
